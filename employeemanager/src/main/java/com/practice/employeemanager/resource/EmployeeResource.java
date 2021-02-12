@@ -1,10 +1,10 @@
-package com.practice.employeemanager;
+package com.practice.employeemanager.resource;
 
-import com.practice.employeemanager.model.Employee;
-import com.practice.employeemanager.service.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import com.practice.employeemanager.model.Employee;
+import com.practice.employeemanager.service.EmployeeService;
 
 import java.util.List;
 
